@@ -7,5 +7,5 @@ import ec.edu.insteclrg.domain.Category;
 
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {
-
+	
 }

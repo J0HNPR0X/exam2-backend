@@ -33,5 +33,4 @@ public class CategoryService extends GenericCrudServiceImpl<Category, CategoriaD
 	public Category mapToDomain(CategoriaDTO dto) {
 		return modelMapper.map(dto, Category.class);
 	}
-
 }

@@ -14,14 +14,12 @@ import lombok.Setter;
 @Setter
 @Data
 @Entity
-public class Category {
-
+public class Servicio {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(nullable = false, updatable = false)
+	@Column(updatable = false, nullable = false)
 	private Long id;
-
+	
 	@Column
 	private String name;
-
 }
